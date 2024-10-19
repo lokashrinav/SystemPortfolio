@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Orbitron', sans-serif; /* Futuristic font */
-    background-color: #000; /* Solid black background */
+    font-family: 'Orbitron', sans-serif; 
+    background-color: #000; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,23 +14,22 @@ body::-webkit-scrollbar {
 }
 
 .portfolio-screen {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
-    border: 2px solid rgba(0, 150, 255, 0.8); /* Bright blue border */
+    background: rgba(0, 0, 0, 0.7); 
+    border: 2px solid rgba(0, 150, 255, 0.8); 
     padding: 30px;
     width: 80vw;
     height: 100%;
-    border-radius: 15px; /* Smooth corners */
+    border-radius: 15px; 
     box-shadow: 0 0 20px rgba(0, 150, 255, 0.5),
                 0 0 40px rgba(0, 150, 255, 0.3),
-                0 0 60px rgba(0, 150, 255, 0.2); /* Blue glow */
+                0 0 60px rgba(0, 150, 255, 0.2); 
     color: #ffffff;
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: auto; /* Allow scrolling if content overflows */
+    overflow: auto; 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .portfolio-screen {
         width: 90vw;
@@ -47,48 +46,43 @@ body::-webkit-scrollbar {
     }
 }
 
-/* Header Styles */
 .header h1, .header p {
     text-align: center;
-    color: #00bfff; /* Bright blue color */
+    color: #00bfff; 
     text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
     margin: 0;
-    font-size: 3em; /* Increased size */
+    font-size: 3em; 
 }
 
 .header p {
-    font-size: 2.5em; /* Increased size */
+    font-size: 2.5em; 
     margin-top: 10px;
     opacity: 0.9;
 }
 
-/* Stats Grid */
 .stats-grid {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack elements vertically */
+    display: flex; 
+    flex-direction: column; 
     margin-top: 30px;
 }
 
 .stat-header {
-    color: #00bfff; /* Bright blue color */
+    color: #00bfff; 
     text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
-    margin-bottom: 15px; /* Increased spacing for better separation */
+    margin-bottom: 15px; 
 }
 
 .stat-item {
-    font-size: 1.5em; /* Increased size */
-    color: #00bfff; /* Bright blue color */
+    font-size: 1.5em; 
+    color: #00bfff; 
     text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
-    margin-bottom: 15px; /* Decreased spacing for items */
+    margin-bottom: 15px; 
 }
 
 .stat-head {
-    font-size: 1.8em; /* Increased size */
-    color: #00bfff; /* Bright blue color */
+    font-size: 1.8em; 
+    color: #00bfff; 
     text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
-    margin-bottom: 15px; /* Decreased spacing for items */
+    margin-bottom: 15px; 
     font-weight: bold;
 }
-
-
-
