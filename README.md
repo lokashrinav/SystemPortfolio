@@ -1,4 +1,4 @@
-# Holographic Portfolio
+# System Portfolio
 
 This is a personal portfolio website designed to showcase my skills, projects, and achievements in a futuristic and interactive manner.
 
