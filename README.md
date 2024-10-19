@@ -1,14 +1,10 @@
-To create a comprehensive `README.md` file for your portfolio website, you should include several key sections that provide context, instructions, and other relevant information. Here’s a structured approach to creating your `README.md` file:
-
 ## Title and Introduction
-```markdown
+
 # Holographic Portfolio
 
 This is a personal portfolio website designed to showcase my skills, projects, and achievements in a futuristic and interactive manner.
-```
 
 ## Table of Contents
-```markdown
 - [Title and Introduction](#title-and-introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -18,7 +14,6 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 - [Customization](#customization)
 - [License](#license)
 - [Contact](#contact)
-```
 
 ## Features
 ```markdown
